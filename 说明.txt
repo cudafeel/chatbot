@@ -1,0 +1,7 @@
+问题和回答在data里面
+先运行data_process 生成词语到数字的映射
+运行seq2seq_chat训练模型
+
+
+输入 input_sentence = '你好?'
+predict_sentence(input_sentence, model_file)为预测
